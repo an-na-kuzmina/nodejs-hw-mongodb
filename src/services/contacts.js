@@ -35,6 +35,6 @@ export const updateContact = async (contactId, payload, options = {}) => {
   );
 
   return {
-    contact: rawResult,
+    contact: rawResult.value,
   };
 };
