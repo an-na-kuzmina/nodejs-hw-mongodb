@@ -543,7 +543,7 @@
           "name": {
             "description": "Contact's name",
             "type": "string",
-            "example": "Alex Durenko"
+            "example": "Alex Naumenko"
           },
           "phoneNumber": {
             "description": "Contact phone number",
