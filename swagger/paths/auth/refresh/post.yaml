@@ -4,6 +4,20 @@ summary: Refresh session token
 operationId: refreshUsersSession
 description: Refresh session token
 security: []
+parameters:
+  - name: sessionId
+    in: cookie
+    required: true
+    schema:
+      type: string
+      example: '/UGIArv7wPULCiyYg6OwHQvIHeYjtdwO4n5i+WTW'
+  - name: refreshToken
+    in: cookie
+    required: true
+    schema:
+      type: string
+      example: '/UGIArv7wPULCiyYg6OwHQvIHeYjtdwO4n5i+WTW'
+
 responses:
   '200':
     description: Refresh session token
