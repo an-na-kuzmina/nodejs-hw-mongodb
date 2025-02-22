@@ -45,7 +45,7 @@ responses:
                 accessToken:
                   type: string
                   example: '/UGIArv7wPULCiyYg6OwHQvIHeYjtdwO4n5i+WTW'
-    '401':
-      $ref: ../../components/responses/auth/auth-401.yaml
-    '500':
-      $ref: '../../components/responses/500.yaml'
+  '401':
+    $ref: '../../../components/responses/401.yaml'
+  '500':
+    $ref: '../../../components/responses/500.yaml'
